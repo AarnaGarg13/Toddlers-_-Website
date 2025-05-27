@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Test your learning.</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="knowledge.png">
+        <script src="main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Rubik+Puddles&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz</h1>
+            <p><b>"Test your knowledge based on your learning."</b></p>
+        </header>
+        <br>
+        <br>
+        <marquee dir="ltr" id="hear">Select a theme for the quiz.</marquee>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="menu_selection">
+            <a class="quiz" href="#alphaQuiz" onclick="hideElement()">Alphabets Quiz</a>
+            <a class="quiz" href="#numQuiz" onclick="hideElement1()">Numbers Quiz</a>
+            <a class="quiz" href="#colQuiz" onclick="hideElement2()">Colors Quiz</a>
+            <a class="quiz" href="#aniQuiz" onclick="hideElement3()">Animals Quiz</a>
+            <a class="quiz" href="#birdQuiz" onclick="hideElement4()">Birds Quiz</a>
+            <a class="quiz" href="#fruVegQuiz" onclick="hideElement5()">Fruits and Vegetables Quiz</a>
+        </section>
+        <br>
+        <section id="alphaQuiz">
+            <h2 class="quiz_qHeader">1.  What is the first letter in the Alphabets?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="b.png" class="q1" id="q1_1" onclick="q1()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="g.png" class="q1" id="q1_2" onclick="q1()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="a.png" class="q1" id="q1_3" onclick="q1()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="t.png" class="q1" id="q1_4" onclick="q1()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c1">Option 3 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">2.  What is the last letter in the Alphabets?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="d.png" class="q2" id="q2_1" onclick="q2()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="h.png" class="q2" id="q2_2" onclick="q2()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="r.png" class="q2" id="q2_3" onclick="q2()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="z.png" class="q2" id="q2_4" onclick="q2()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c2">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">3.  What is the 17th letter in the Alphabets?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="q.png" class="q3" id="q3_1" onclick="q3()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="p.png" class="q3" id="q3_2" onclick="q3()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="f.png" class="q3" id="q3_3" onclick="q3()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="l.png" class="q3" id="q3_4" onclick="q3()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c3">Option 1 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">4.  What is the 13th letter in the Alphabets?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="s.png" class="q4" id="q4_1" onclick="q4()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="m.png" class="q4" id="q4_2" onclick="q4()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="k.png" class="q4" id="q4_3" onclick="q4()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="n.png" class="q4" id="q4_4" onclick="q4()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c4">Option 2 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">5.  What is the 9th letter in the Alphabets?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="v.png" class="q5" id="q5_1" onclick="q5()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="s.png" class="q5" id="q5_2" onclick="q5()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="b.png" class="q5" id="q5_3" onclick="q5()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="i.png" class="q5" id="q5_4" onclick="q5()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c5">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+        <hr color="blanchedalmond">
+        <hr color="blanchedalmond">
+        <div class="menu">
+            <a href="index.html">🏡 Home</a>
+        </div>
+        </section>
+        <br>
+        <hr color="blanchedalmond">
+        <br>
+        <section id="numQuiz">
+            <h2 class="quiz_qHeader">1. What is the number of fingers in one human hand?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="5.png" class="q6" id="q6_1" onclick="q6()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="6.png" class="q6" id="q6_2" onclick="q6()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="10.png" class="q6" id="q6_3" onclick="q6()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="4.png" class="q6" id="q6_4" onclick="q6()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c6">Option 1 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">2. What is the number of wheels in a bicycle?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="1.png" class="q7" id="q7_1" onclick="q7()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="0.png" class="q7" id="q7_2" onclick="q7()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="4.png" class="q7" id="q7_3" onclick="q7()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="2.png" class="q7" id="q7_4" onclick="q7()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c7">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">3.  How many eyes does a human face have?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="4.png" class="q8" id="q8_1" onclick="q8()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="1.png" class="q8" id="q8_2" onclick="q8()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="2.png" class="q8" id="q8_3" onclick="q8()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="3.png" class="q8" id="q8_4" onclick="q8()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c3">Option 3 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">4.  How many tentacles does an octopus have?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="4.png" class="q9" id="q9_1" onclick="q9()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="8.png" class="q9" id="q9_2" onclick="q9()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="5.png" class="q9" id="q9_3" onclick="q9()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="2.png" class="q9" id="q9_4" onclick="q9()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c9">Option 2 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">5.  How many legs does a chair have?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="2.png" class="q10" id="q10_1" onclick="q10()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="3.png" class="q10" id="q10_2" onclick="q10()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="6.png" class="q10" id="q10_3" onclick="q10()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="4.png" class="q10" id="q10_4" onclick="q10()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c10">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+        <hr color="blanchedalmond">
+        <hr color="blanchedalmond">
+        <div class="menu">
+            <a href="index.html">🏡 Home</a>
+        </div>
+        </section>
+        <section id="colQuiz">
+            <h2 class="quiz_qHeader">1. What is the color of the sky when it is clear?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="blue.png" class="q11" id="q11_1" onclick="q11()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="pink.png" class="q11" id="q11_2" onclick="q11()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="brown.png" class="q11" id="q11_3" onclick="q11()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="white.jpg" class="q11" id="q11_4" onclick="q11()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c11">Option 1 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">2. What is the color of rose?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="yellow.jpg" class="q12" id="q12_1" onclick="q12()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="green.png" class="q12" id="q12_2" onclick="q12()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="orange_color.webp" class="q12" id="q12_3" onclick="q12()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="red.png" class="q12" id="q12_4" onclick="q12()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c12">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">3.  What is the color of the sun?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="black.jpg" class="q13" id="q13_1" onclick="q13()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="white.jpg" class="q13" id="q13_2" onclick="q13()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="yellow.jpg" class="q13" id="q13_3" onclick="q13()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="blue.png" class="q13" id="q13_4" onclick="q13()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c13">Option 3 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">4.  What is the color of grass?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="red.png" class="q14" id="q14_1" onclick="q14()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="green.png" class="q14" id="q14_2" onclick="q14()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="blue.png" class="q14" id="q14_3" onclick="q14()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="orange_color.webp" class="q14" id="q14_4" onclick="q14()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c14">Option 2 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">5.  What is the color of leaves?</h2>
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <img src="pink.png" class="q15" id="q15_1" onclick="q15()">
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="red.png" class="q15" id="q15_2" onclick="q15()">
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="purple.png" class="q15" id="q15_3" onclick="q15()">
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <img src="green.png" class="q15" id="q15_4" onclick="q15()">
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c15">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+        <hr color="blanchedalmond">
+        <hr color="blanchedalmond">
+        <div class="menu">
+            <a href="index.html">🏡 Home</a>
+        </div>
+        </section>
+        <section id="aniQuiz">
+            <h2 class="quiz_qHeader">1. Identify the animal.</h2>
+            <img src="lion.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q16" id="q16_1" onclick="q16()">lion</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q16" id="q16_2" onclick="q16()">Tiger</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q16" id="q16_3" onclick="q16()">Rabbit</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q16" id="q16_4" onclick="q16()">Snake</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c16">Option 1 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">2. Identify the animal.</h2>
+            <img src="cat.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q17" id="q17_1" onclick="q17()">Dog</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q17" id="q17_2" onclick="q17()">Giraffe</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q17" id="q17_3" onclick="q17()">Elephant</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q17" id="q17_4" onclick="q17()">Cat</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c17">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">3. Identify the animal.</h2>
+            <img src="giraffe.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q18" id="q18_1" onclick="q18()">Snake</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3  class="q18" id="q18_2" onclick="q18()">Crocodile</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q18" id="q18_3" onclick="q18()">Giraffe</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q18" id="q18_4" onclick="q18()">Bear</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c18">Option 3 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">4. Identify the animal.</h2>
+            <img src="monkey.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q19" id="q19_1" onclick="q19()">Dog</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q19" id="q19_2" onclick="q19()">monkey</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q19" id="q19_3" onclick="q19()">lion</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q19" id="q19_4" onclick="q19()">Rabbit</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c19">Option 2 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">5. Identify the animal.</h2>
+            <img src="racing-horse.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q20" id="q20_1" onclick="q20()">Cow</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q20" id="q20_2" onclick="q20()">Dog</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q20" id="q20_3" onclick="q20()">Cat</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q20" id="q20_4" onclick="q20()">Horse</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c20">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+        <hr color="blanchedalmond">
+        <hr color="blanchedalmond">
+        <div class="menu">
+            <a href="index.html">🏡 Home</a>
+        </div>
+        </section>
+        <section id="birdQuiz">
+            <h2 class="quiz_qHeader">1. Identify the bird.</h2>
+            <img src="toucan.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q21" id="q21_1" onclick="q21()">Toucan</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q21" id="q21_2" onclick="q21()">Duck</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q21" id="q21_3" onclick="q21()">Dove</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q21" id="q21_4" onclick="q21()">Sparrow</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c21">Option 1 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">2. Identify the bird.</h2>
+            <img src="pigeon.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q22" id="q22_1" onclick="q22()">Peacock</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q22" id="q22_2" onclick="q22()">Toucan</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q22" id="q22_3" onclick="q22()">Eagle</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q22" id="q22_4" onclick="q22()">Pigeon</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c22">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">3. Identify the bird.</h2>
+            <img src="sparrow.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q23" id="q23_1" onclick="q23()">Eagle</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3  class="q23" id="q23_2" onclick="q23()">Vulture</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q23" id="q23_3" onclick="q23()">Sparrow</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q23" id="q23_4" onclick="q23()">Dove</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c23">Option 3 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">4. Identify the bird.</h2>
+            <img src="owl.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q24" id="q24_1" onclick="q24()">Ostrich</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q24" id="q24_2" onclick="q24()">Owl</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q24" id="q24_3" onclick="q24()">Eagle</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q24" id="q24_4" onclick="q24()">Sparrow</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c24">Option 2 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">5. Identify the bird.</h2>
+            <img src="butterfly.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q25" id="q25_1" onclick="q25()">Owl</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q25" id="q25_2" onclick="q25()">Parrot</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q25" id="q25_3" onclick="q25()">Chicken</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q25" id="q25_4" onclick="q25()">Butterfly</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c25">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr color="blanchedalmond">
+            <hr color="blanchedalmond">
+            <div class="menu">
+                <a href="index.html">🏡 Home</a>
+            </div>
+        </section>
+        <section id="fruVegQuiz">
+            <h2 class="quiz_qHeader">1. Identify the fruit.</h2>
+            <img src="orange.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q26" id="q26_1" onclick="q26()">Orange</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q26" id="q26_2" onclick="q26()">Mango</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q26" id="q26_3" onclick="q26()">Strawberry</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q26" id="q26_4" onclick="q26()">Cherries</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c26">Option 1 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">2. Identify the vegetable.</h2>
+            <img src="broccoli.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q27" id="q27_1" onclick="q27()">Peas</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q27" id="q27_2" onclick="q27()">Potato</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q27" id="q27_3" onclick="q27()">Tomato</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q27" id="q27_4" onclick="q27()">Broccoli</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c27">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">3. Identify the fruit.</h2>
+            <img src="cherries.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q28" id="q28_1" onclick="q28()">Apple</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3  class="q28" id="q28_2" onclick="q28()">Grapes</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q28" id="q28_3" onclick="q28()">Cherries</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q28" id="q28_4" onclick="q28()">Blueberry</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c28">Option 3 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">4. Identify the vegetable.</h2>
+            <img src="potato.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q29" id="q29_1" onclick="q29()">Tomato</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q29" id="q29_2" onclick="q29()">Potato</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q29" id="q29_3" onclick="q29()">Onion</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q29" id="q29_4" onclick="q29()">Pumpkin</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c29">Option 2 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="quiz_qHeader">5. Identify the fruit.</h2>
+            <img src="pineapple.png" class="img_qq">
+            <div class="div_quiz">
+                <figure class="figure_q">
+                    <h3 class="q30" id="q30_1" onclick="q30()">Blueberry</h3>
+                    <figcaption class="caption">Option 1</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q30" id="q30_2" onclick="q30()">Kiwi</h3>
+                    <figcaption class="caption">Option 2</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q30" id="q30_3" onclick="q30()">Orange</h3>
+                    <figcaption class="caption">Option 3</figcaption>
+                </figure>
+                <figure class="figure_q">
+                    <h3 class="q30" id="q30_4" onclick="q30()">Pineapple</h3>
+                    <figcaption class="caption">Option 4</figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <h4 id="c30">Option 4 is the correct answer.</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+        <hr color="blanchedalmond">
+        <hr color="blanchedalmond">
+        <div class="menu">
+            <a href="index.html">🏡 Home</a>
+        </div>
+        </section>
+    </body>
+</html>

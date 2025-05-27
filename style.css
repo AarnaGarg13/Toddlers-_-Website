@@ -1,0 +1,566 @@
+body {
+    background-color: #302c2c;
+    text-align: center;
+    margin: 0;
+  }
+  header{
+    background-color: cadetblue;
+    padding: 5px;
+    color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+  }  
+  header h1 {
+    font-family: Rubik Puddles;
+    font-size: 70px;
+    color: blanchedalmond;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+    align-items: center;
+  }
+  .menu a {
+    background-color: blanchedalmond;
+    color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px #ccc;
+    text-decoration: none;
+  }
+  .menu a:hover {
+    background-color:beige;
+    color: brown
+  }
+  footer {
+    background-color: cadetblue;
+    padding: 15px;
+    font-size: 16px;
+    color: blanchedalmond;
+  }
+  #babyImage {
+    border-radius: 6%;
+  }
+  .value {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+  .btns img{
+    width: 190px;
+    height: 190px;
+  }
+  #hear{
+    background-color: blanchedalmond;
+    color: brown;
+    font-size: 25px;
+  }
+  .btns{
+    background-color: transparent;
+  }
+  .btn_rhymes{
+    background-color: blanchedalmond;
+    color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    height: 250px; 
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .btn_rhymes img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .heads a{
+    background-color: blanchedalmond;
+    color: cadetblue;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  center h1{
+    font-family: Rubik Puddles;
+    color: cadetblue;
+  }
+  .heads{
+    width: 200px;
+    height: 60px;
+  }
+  .h2_header{
+    font-family: Rubik Puddles;
+    color: blanchedalmond;
+    font-size: 40px;
+  }
+  #stories{
+    color: brown;
+    background-color: blanchedalmond;
+  }
+  .btns_stories{
+    background-color: blanchedalmond;
+    color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    height: 250px; 
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .btns_stories img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .img_volume{
+    height: 50px;
+    width: 50px;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+  }
+  .story_body{
+    margin: 8px;
+  }
+  .story_para{
+    font-size: 20px;
+    color:cadetblue;
+  }
+  .story_para1{
+    font-size: 20px;
+    color:blanchedalmond;
+  }
+  .stories_header{
+    margin: 0%;
+  }
+  .btn_story{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+  }
+  .story_header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: blanchedalmond;
+  }
+  .quiz{
+    background-color: blanchedalmond;
+    padding: 10px;
+    color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .quiz:hover{
+    background-color: antiquewhite;
+    color: brown;
+  }
+  .q1{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .div_quiz{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .figure_q{
+    text-align: center;
+    margin: 0;
+  }
+  #c1{
+    display: none;
+    color: cadetblue;
+  }
+  #c2{
+    display: none;
+    color: cadetblue;
+  }
+  #c3{
+    display: none;
+    color: cadetblue;
+  }
+  #c4{
+    display: none;
+    color: cadetblue;
+  }
+  #c5{
+    display: none;
+    color: cadetblue;
+  }
+  #c6{
+    display: none;
+    color: cadetblue;
+  }
+  #c7{
+    display: none;
+    color: cadetblue;
+  }
+  #c8{
+    display: none;
+    color: cadetblue;
+  }
+  #c9{
+    display: none;
+    color: cadetblue;
+  }
+  #c10{
+    display: none;
+    color: cadetblue;
+  }
+  #c11{
+    display: none;
+    color: cadetblue;
+  }
+  #c12{
+    display: none;
+    color: cadetblue;
+  }
+  #c13{
+    display: none;
+    color: cadetblue;
+  }
+  #c14{
+    display: none;
+    color: cadetblue;
+  }
+  #c15{
+    display: none;
+    color: cadetblue;
+  }
+  #c16{
+    display: none;
+    color: cadetblue;
+  }
+  #c17{
+    display: none;
+    color: cadetblue;
+  }
+  #c18{
+    display: none;
+    color: cadetblue;
+  }
+  #c19{
+    display: none;
+    color: cadetblue;
+  }
+  #c20{
+    display: none;
+    color: cadetblue;
+  }
+  #c21{
+    display: none;
+    color: cadetblue;
+  }
+  #c22{
+    display: none;
+    color: cadetblue;
+  }
+  #c23{
+    display: none;
+    color: cadetblue;
+  }
+  #c24{
+    display: none;
+    color: cadetblue;
+  }
+  #c25{
+    display: none;
+    color: cadetblue;
+  }
+  #c26{
+    display: none;
+    color: cadetblue;
+  }
+  #c27{
+    display: none;
+    color: cadetblue;
+  }
+  #c28{
+    display: none;
+    color: cadetblue;
+  }
+  #c29{
+    display: none;
+    color: cadetblue;
+  }
+  #c30{
+    display: none;
+    color: cadetblue;
+  }
+  .q2{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q3{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q4{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q5{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q6{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q7{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q8{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q9{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q10{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q11{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q12{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q13{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q14{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q15{
+    width: 80px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q16{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q17{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q18{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q19{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q20{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q21{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q22{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q23{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q24{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q25{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q26{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q27{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q28{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q29{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .q30{
+    color: cadetblue;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .quiz_qHeader{
+    color: blanchedalmond;
+  }
+  .caption{
+    color: cadetblue;
+  }
+  .img_qq{
+    width: 120px;
+    border-color: beige;
+    border-style: double;
+    border-width: 3px;
+    margin: 20px;
+  }
+  #alphaQuiz{
+    display: none;
+  }
+  #numQuiz{
+    display: none;
+  }
+  #colQuiz{
+    display: none;
+  }
+  #aniQuiz{
+    display: none;
+  }
+  #birdQuiz{
+    display: none;
+  }
+  #fruVegQuiz{
+    display: none;
+  }
